@@ -1,0 +1,28 @@
+- New to installing the nexus wallets.
+
+Choose ur wallet, 2.0.5 Oracle Or LLD(2.2.3) wallet.
+- Download the client software for ur OS (at download section on nexusearth.com)
+- Download the blockchain file for ur Wallet Type. (at download section on nexusearth.com)
+
+Where to place these db files? If u startup the wallet 1ste time it will auto create a nexus folder.
+Close ur wallet after its booted up the first time. and extract the zip file into the following locations.
+- For windows = Username/appdata/roaming/nexus
+- For mac = Username/library/applicationSupport/Nexus
+- Linux = root/library/nexus
+
+Once u have extracted these files u can start the wallet again.
+Please wait while its loading, check ram usage to follow up the startup.
+LLD: 1.4 Gb ram
+Oracle : 800-900 Mb ram
+
+I see an LLD wallet and an Oracle wallet download option. What is the difference and which should I choose?
+The LLD(2.2.2/2.2.3) wallet and the Oracle(2.0.5) wallet both operate basically the same.
+The main difference is the way it stores blockchain information.
+The LLD wallet uses a different type of database to store the information than the Oracle wallet.
+
+IMPORTANT 
+- The MAIN difference in function between the two is when it comes to staking (mining nPOS blocks).
+The Oracle wallet is better at doing this as there is a problem with staking in the LLD wallet.
+So if you plan to stake your coins, you should use the Oracle(2.0.5) wallet.
+If you have no plans to stake your coins, you should use the LLD(2.2.3) wallet as it is more efficient and loads the database much faster than the Oracle wallet does.
+
